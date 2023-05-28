@@ -13,46 +13,46 @@
     <script src="https://kit.fontawesome.com/c245a57108.js" crossorigin="anonymous"></script>
 <body>
   <header>
-    <span class="logo"><img src="" alt="" /><a href="index.html">LOGO</a></span> 
-      <nav>
-        
-        <div class="buscador">Buscador</div>
-
-        <a href="zona-saludable.html" class="nav-link">Zona Saludable</a>
-        <a href="restaurantes.html" class="nav-link">Restaurantes</a>
-        <a href="contacto.html" class="nav-link">Contacto</a>
-        <a href="subscribite.html" class="nav-link">Suscribite</a>
-      </nav>
+    <div class="logo">
+      <a href="index.html"><img class="logo-nav" src="img/logo/LogoWhite.png" alt=""><h3>SALÚ</h3></a>
+    </div>
+    <nav>
+      <a href="zona-saludable.html" class="nav-link">Zona Saludable</a>
+      <a href="restaurantes.html" class="nav-link">Restaurantes</a>
+      <a href="contacto.html" class="nav-link">Contacto</a>
+      <a href="subscribite.html" class="nav-link">Suscribite</a>
+    </nav>
     
   </header>
     <main>
+      <section id="formulario">
         <h1>SUBSCRIBITE A NUESTRA WEB</h1>
         <div class="form-container">
-            <form class="form" action="">
-                <label for="nombre">NOMBRE</label><br>
-                <input class="input_form"  type="text" id="nombre" name="nombre" required><br><br>
-
-                <label for="apellido">APELLIDO</label><br>
-                <input class="input_form" type="text"><br><br>
-
-                <label for="nombre_local">NOMBRE DEL LOCAL</label><br>
-		        <input class="input_form" type="text" id="nombre_restaurante" name="nombre_restaurante" required><br><br>
-
-                <label for="direccion_local">DIRECCION DEL LOCAL</label><br>
-                <input class="input_form" type="text" id="direccion_restaurante" name="direccion_restaurante" required><br><br>
-
-                <label for="telefono_local">TELEFONO DE CONTACTO</label><br>
-                <input class="input_form" type="text" id="telefono_restaurante" name="telefono_restaurante" required><br><br>
-
-                <label for="email_local">CORREO ELECTRONICO</label><br>
-                <input class="input_form" type="email" id="email_restaurante" name="email_restaurante" required><br><br>
-
-                <label for="descripcion_restaurante">DESCRIPCION DEL LOCAL</label><br>
-                <textarea id="descripcion_restaurante" name="descripcion_restaurante" rows="5" cols="50"></textarea><br><br>
-                
-                <input class="button_enviar" type="submit" value="Enviar">
-            </form>
+          <div class="center">
+            <input type="checkbox" id="show">
+            <label for="show" class="show-btn">VIEW FORM</label>
+            <div class="container">
+              <label for="show" class="close-btn fas fa-times" title="close"></label>
+                <form action="#">
+                  <div class="data">
+                    <label>EMAIL OR NUMBER</label><br>
+                    <input class="input_form"  type="text" id="nombre" name="nombre" required><br><br>
+                  </div>
+                  <div class="data">
+                    <label>PASSWORD</label><br>
+                    <input class="input_form" type="text" id="nombre_restaurante" name="nombre_restaurante" required><br><br>
+                  </div>
+                  <div class="btn">
+                    <div class="inner">
+                      <button type="submit">LOGIN</button>
+                    </div>
+                  </div>
+                    
+                </form>
+            </div>
+          </div>
         </div>
+      </section>
     </main>
 
     <footer>

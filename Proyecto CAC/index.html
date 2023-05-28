@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>SALÚ | HOME</title>
 
     <link rel="stylesheet" href="css/estilo.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -17,16 +17,15 @@
   </head>
   <body>
     <header>
-      <span class="logo"><img src="" alt="" /><a href="index.html">LOGO</a></span> 
-        <nav>
-          
-          <div class="buscador">Buscador</div>
-  
-          <a href="zona-saludable.html" class="nav-link">Zona Saludable</a>
-          <a href="restaurantes.html" class="nav-link">Restaurantes</a>
-          <a href="contacto.html" class="nav-link">Contacto</a>
-          <a href="subscribite.html" class="nav-link">Suscribite</a>
-        </nav>
+      <div class="logo">
+        <a href="index.html"><img class="logo-nav" src="img/logo/LogoWhite.png" alt=""><h3>SALÚ</h3></a>
+      </div>
+      <nav>
+        <a href="zona-saludable.html" class="nav-link">Zona Saludable</a>
+        <a href="restaurantes.html" class="nav-link">Restaurantes</a>
+        <a href="contacto.html" class="nav-link">Contacto</a>
+        <a href="subscribite.html" class="nav-link">Suscribite</a>
+      </nav>
       
     </header>
 
@@ -74,7 +73,7 @@
             </div>
           </div>
           <form action="">
-            <a href="zona-saludable.html"><button class="boton-verde">Ver más</button></a>
+            <button onclick="window.location.href='/zona-saludable.html'" class="boton-verde">Ver más</button>
           </form>
         </div>
       </section>
@@ -82,49 +81,54 @@
       <section id="restaurantes-recomendados">
         <div class="container">
           <h2>Restaurantes Recomendados</h2>
-          <div class="restaurantes">
-            <img src="" alt="" />
-            <h3>Green Eat</h3>
-            <!-- estrellas -->
-            <p>Puntaje: 4.0</p>
-            <div class="caracteristicas">
-              <p>
-                Comida rápida, saludable
-                <br />
-                Opciones veganas, vegetarianas y sin gluten
-                <br />
-                Desayuno, Comidas, Cenas, Brunch
-              </p>
+          <div class="container_restaurantes">
+            <div class="restaurantes">
+              <div class="restaurantes_img"><img src="img/restaurantes/GreenEat-Restaurant.png" alt=""></div>
+              <img src="" alt="" />
+              <h3>Green Eat</h3>
+              <!-- estrellas -->
+              <p>Puntaje: 4.0</p>
+              <div class="caracteristicas">
+                <p>
+                  Comida rápida, saludable
+                  <br />
+                  Opciones veganas, vegetarianas y sin gluten
+                  <br />
+                  Desayuno, Comidas, Cenas, Brunch
+                </p>
+              </div>
             </div>
-          </div>
-          <div class="restaurantes">
-            <img src="" alt="" />
-            <h3>La Pescadorita</h3>
-            <!-- estrellas -->
-            <p>Puntaje: 4.5</p>
-            <div class="caracteristicas">
-              <p>
-                Marisco, Mediterránea, Saludable, Argentina
-                <br />
-                Opciones vegetarianas y sin gluten
-                <br />
-                Comidas, Cenas
-              </p>
+            <div class="restaurantes">
+              <div class="restaurantes_img"><img src="img/restaurantes/LaPescadorita-Restaurante.png" alt=""></div>
+              <img src="" alt="" />
+              <h3>La Pescadorita</h3>
+              <!-- estrellas -->
+              <p>Puntaje: 4.5</p>
+              <div class="caracteristicas">
+                <p>
+                  Marisco, Mediterránea, Saludable, Argentina
+                  <br />
+                  Opciones vegetarianas y sin gluten
+                  <br />
+                  Comidas, Cenas
+                </p>
+              </div>
             </div>
-          </div>
-          <div class="restaurantes">
-            <img src="" alt="" />
-            <h3>Brasserie La Petanque</h3>
-            <!-- estrellas -->
-            <p>Puntaje: 4.5</p>
-            <div class="caracteristicas">
-              <p>
-                Comida Francesa, Europea, Saludable, Asador
-                <br />
-                Opciones vegetarianas y sin gluten
-                <br />
-                Comidas
-              </p>
+            <div class="restaurantes">
+              <div class="restaurantes_img"><img src="img/restaurantes/BrasserieLaPetanque-Restaurante.png" alt=""></div>
+              <img src="" alt="" />
+              <h3>Brasserie La Petanque</h3>
+              <!-- estrellas -->
+              <p>Puntaje: 4.5</p>
+              <div class="caracteristicas">
+                <p>
+                  Comida Francesa, Europea, Saludable, Asador
+                  <br />
+                  Opciones vegetarianas y sin gluten
+                  <br />
+                  Comidas
+                </p>
+              </div>
             </div>
           </div>
           <form action="">
@@ -150,7 +154,7 @@
           <p>Teléfono: +54 11 0000-0000</p>
         </div>
         <div class="logo-copyright">
-          <img src="" alt="" />
+          <img class="logo_footer" src="img/logo/Logo.png" alt="" />
           <p>Copyright &copy; 2023</p>
         </div>
       </div>
