@@ -4,13 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>SALÚ | SUBSCRIBITE</title>
     <link rel="stylesheet" href="css/estilo.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css2?family=Roboto" rel="stylesheet"/>
     <script src="https://kit.fontawesome.com/c245a57108.js" crossorigin="anonymous"></script>
+   
 <body>
   <header>
     <div class="logo">
@@ -37,25 +38,28 @@
             <div class="contenedor">
               <label for="show" class="close-btn fas fa-times" title="close"></label>
               <div class="form-titulo">COMPLETÁ TUS DATOS</div>
-                <form action="">
+                <form id="form" class="form">
                   <div class="data">
                     <label>APELLIDO Y NOMBRE</label><br>
-                    <input class="input_form"  type="text" id="nombre" name="nombre" required>
+                    <input class="input_form"  type="text" id="nombre" name="nombre">
+                    <small>Error message</small>
                   </div>
                   <div class="data">
                     <label>TELEFONO</label>
-                    <input class="input_form" type="number" id="telefono" name="telefono" required><br><br>
+                    <input class="input_form" type="number" id="telefono" name="telefono">
+                    <small>Error message</small>
                   </div>
                   <div class="data">
                     <label>CORREO ELECTRONICO</label>
-                    <input class="input_form" type="email" id="email" name="email" required><br><br>
+                    <input class="input_form" type="email" id="email" name="email">
+                    <small>Error message</small>
                   </div>
                   <div class="data">
                     <label>¿CÓMO SE LLAMA TU COMERCIO?</label><br>
-                    <input class="input_form" type="text" id="nombre_restaurante" name="nombre_restaurante" required><br><br>
+                    <input class="input_form" type="text" id="nombre_restaurante" name="nombre_restaurante">
+                    <small>Error message</small>
                   </div>
-                  <textarea name="" id="" cols="30" rows="10" placeholder="Breve descripcion de tu local" required ></textarea>
-                  
+                  <textarea name="" id="descripcion_restaurante" cols="30" rows="10" placeholder="Breve descripcion de tu local" required></textarea>
                       <button type="submit">ENVIA TUS DATOS</button>  
                    
                     
@@ -87,6 +91,6 @@
         </div>
       </div>
     </footer>
-   
+    <script src="js/validationForm.js"></script>
 </body>
 </html>

@@ -10,13 +10,17 @@ body {
   background-color: white;
 }
 
-
 header {
   background-color: #4ea74f;
   height: 4em;
   display: flex;
   align-items: center;
+  
 
+}
+
+.titulo-page {
+  margin-top: 0.5em;
 }
 
 #contacto .container img {
@@ -113,14 +117,14 @@ nav a {
 
 .alimentos {
   background: linear-gradient(to top, transparent, #4eac4f, #139a43, #042e05);
-  width: 13em;
-  height: 25em;
-  margin: 0 1em;
+  width: 22em;
+  height: 35em;
+  margin: 1em 1em;
 }
 
 .alimentos_img {
-  width: 13em;
-  height: 13em;
+  width: 22em;
+  height: 15em;
 }
 
 .alimentos_img img {
@@ -233,6 +237,25 @@ input[type="checkbox"] {
 
 }
 
+.informacion_nutricional {
+  margin-top: 1em;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  border: 1px solid white;
+  padding: 1em;
+}
+
+.informacion_nutricional h5 {
+  font-size: 20px;
+  font-family: "Oswald";
+}
+
+.informacion_nutricional p {
+  font-family: "Lato";
+}
+
 .contenedor .close-btn {
   position: absolute;
   right: 20px;
@@ -250,10 +273,29 @@ input[type="checkbox"] {
   transition: all 0.3s ease;
 }
 
+.data small {
+  color: #e74c3c;
+  font-size: 15 px;
+  font-family:'Courier New', Courier, monospace;
+  visibility: hidden;
+}
+
+.data.success input {
+  border-color: #2ecc71;
+}
+
+.data.error input {
+  border-color: #e74c3c;
+}
+
+.data.error small {
+  visibility: visible;
+}
+
 .contenedor form .data {
   height: 45px;
   width: 100%;
-  margin: 40px 0;
+  margin: 60px 0;
 }
 
 form .data label {
@@ -312,11 +354,27 @@ form .btn:hover button {
 }
 
 .contacto {
-  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #4ea74f;
   border-radius: 10px;
   width: 20em;
   height: 15em;
   margin: 0 1em;
+}
+
+.contacto i {
+  text-align: center;
+}
+
+.contacto p {
+  color: white;
+  font-size: 20px;
+}
+
+#mapa {
+  text-align: center;
 }
 
 h1 {
@@ -325,7 +383,9 @@ h1 {
 }
 
 h2 {
-  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  font-family: 'Lato';
+  font-weight: 800;
   font-size: 2.7em;
 }
 
@@ -361,9 +421,7 @@ p{
   background-color: #042e05;
 }
 
-#restaurantes-recomendados {
-  background: linear-gradient(to bottom, transparent,#a2eba3, #98ecac,#628563);
-} 
+ 
 
 .container_restaurantes {
   display: flex;
@@ -416,6 +474,8 @@ p{
 }
 
 footer {
+  position: relative;
+  top: 3em;
   background-color: rgb(39, 34, 34);
 }
 

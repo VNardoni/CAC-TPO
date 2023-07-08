@@ -1,0 +1,60 @@
+{
+    "alimentos" : [
+        {
+            "nombre" : "garbanzos",
+            "calorias" : "148",
+            "grasa" : "2,45",
+            "carbohidratos" : "24,58",
+            "proteinas" : "7,82"
+        },
+        {
+            "nombre" : "salmon",
+            "calorias" : "146",
+            "grasa" : "5,93",
+            "carbohidratos" : "0",
+            "proteinas" : "21,62"
+        },
+        {
+            "nombre" : "quinoa",
+            "calorias" : "229",
+            "grasa" : "3,55",
+            "carbohidratos" : "42,17",
+            "proteinas" : "8.1"
+        },
+        {
+            "nombre" : "tomate",
+            "calorias" : "22",
+            "grasa" : "0.25",
+            "carbohidratos" : "4,82",
+            "proteinas" : "1.08"
+        },
+        {
+            "nombre" : "berenjena",
+            "calorias" : "24",
+            "grasa" : "0,19",
+            "carbohidratos" : "5,7",
+            "proteinas" : "1,01g"
+        },
+        {
+            "nombre" : "morron",
+            "calorias" : "24",
+            "grasa" : "0,23",
+            "carbohidratos" : "5.66",
+            "proteinas" : "0.95"
+        },
+        {
+            "nombre" : "pollo",
+            "calorias" : "195",
+            "grasa" : "7,72",
+            "carbohidratos" : "0",
+            "proteinas" : "29,55"
+        },
+        {
+            "nombre" : "palta",
+            "calorias" : "322",
+            "grasa" : "29,47",
+            "carbohidratos" : "17,15",
+            "proteinas" : "4,02"
+        }
+    ]
+}
